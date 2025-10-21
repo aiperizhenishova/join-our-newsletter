@@ -19,6 +19,38 @@
 
     <!--You are welcome to delete these styles or modify them in your own stylesheet -->
     <style>
+
+
+      @media screen and (max-width: 480px) {
+        .logo{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        h1{
+          text-align: center;
+        }
+
+        p {
+          text-align: center;
+        }
+
+        .author-info{
+          text-align: center;
+        }
+      }
+
+      /* Для средних экранов до 768px */
+      @media screen and (max-width: 768px) {
+       /* Сюда стили для планшета. Может, два столбика, какие-то отступы другие. */
+      }
+
+      /* Для больших экранов (от 1025px и выше) */
+      @media screen and (min-width: 1025px) {
+        /* Сюда уже основные, "жирные" стили для больших мониторов. */
+      } 
+
       * {
         font-family: 'Poppins', sans-serif;
         background-color: #F9FAFB; 
